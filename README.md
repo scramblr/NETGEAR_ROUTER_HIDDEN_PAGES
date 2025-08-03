@@ -20,6 +20,8 @@ Here's a screenshot of what's inside debug.htm - without even explaining any of 
 
 [ Breakdown of all features to be added shortly. ]
 
+[CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.
+
 ## WiFi_HiddenPage.htm
 ***NOTE:** <ins>**Only for Broadcom chipset based devices, but it's pretty badass for saving battery life on your phones and other connected devices. RAX200 / RAX80 / R8500 / R8000 / R7000 / D8500 / D7000**</ins>
 
