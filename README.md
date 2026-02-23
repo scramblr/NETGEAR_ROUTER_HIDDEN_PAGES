@@ -1,20 +1,25 @@
 <div align="center">
 
 # NETGEAR ROUTERS: Hidden Pages & Functions
-<BR>
  
-### Quick Reference for Always Accessible Pages
+## Quick Reference for Always Accessible Pages
 | Router IP | URL | Description |
 |--------------|-----|-------------|
 | 192.168.1.1  | http://192.168.1.1/Debug_log.zip | This request will cause your router to poll and then zip a huge portion of the filesystem that you've never seen before! enjoy! |
 | 192.168.1.1  | http://192.168.0.1/debug.htm | Displays lots of router telemetry and allows you to do various debug logging captures.|
 | 192.168.1.1  | http://192.168.0.1/debug.htm#devtools | Open Devtools (F12 or CTRL+SHIFT+C) and remove the "<//--" and "<!--" lines from the page. There is one in the Javascript near the top, and another in the body of the page. This will activate a new button called (Start Qterics Update) as well as functionality of the debug captures. |
-</div>
 
 ---
-# :warning: WARNING: SOME VULNS ARE NOT PATCHED :warning: # 
-###### (Thanks @Jericho from [attrition.org](https://attrition.org))
-## [CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.
+# :warning: WARNING: SOME VULNS ARE STILL NOT PATCHED :warning:</div>
+###### (via @Jericho from [attrition.org](https://attrition.org)):
+### [CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability. [Want PoC Exploit?](https://www.exploit-db.com/exploits/44245) 
+
+###### (via @scramblr from [PACKET.TEL](https://packet.tel)):
+### [CVE-2016-1555](https://www.cve.org/CVERecord?id=CVE-2016-1555) - Several Netgear devices include unauthenticated webpages that pass form input directly to the command-line, allowing for a command injection attack in `boardData102.php`, `boardData103.php`, `boardDataJP.php`, `boardDataNA.php`, and `boardDataWW.php`. 
+
+###### (via @scramblr from [PACKET.TEL](https://packet.tel)):
+### [CVE-2025-6565](https://www.cve.org/CVERecord?id=CVE-2025-6565) - A CRITICAL vulnerability was found in Netgear WNCE3001 1.0.0.50 that affects the function http_d of the component HTTP POST Request Handler. The manipulation of the argument Host leads to stack-based buffer overflow. This attack is possible to initiate remotely.
+
 
 ---
 
