@@ -10,7 +10,7 @@
 | 192.168.1.1  | http://192.168.0.1/debug.htm#devtools | Open Devtools (F12 or CTRL+SHIFT+C) and remove the "<//--" and "<!--" lines from the page. There is one in the Javascript near the top, and another in the body of the page. This will activate a new button called (Start Qterics Update) as well as functionality of the debug captures. |
 
 ---
-# :warning: WARNING: SOME VULNS ARE STILL NOT PATCHED :warning:</div>
+# :warning: WARNING: SOME VULNS ARE STILL NOT PATCHED </div>
 ###### (via @Jericho from [attrition.org](https://attrition.org)):
 ### [CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability. [Want PoC Exploit?](https://www.exploit-db.com/exploits/44245) 
 
