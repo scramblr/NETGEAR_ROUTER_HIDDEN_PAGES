@@ -1,4 +1,19 @@
-# NETGEAR Devices Hidden Page List
+<div align="center">
+
+# NETGEAR ROUTERS: Hidden Pages & Functions
+<BR>
+
+  
+### Quick Reference for Always Accessible Pages
+| Router IP | URL | Description |
+|--------------|-----|-------------|
+| 192.168.1.1  | http://192.168.1.1/Debug_log.zip | This request will cause your router to poll and then zip a huge portion of the filesystem that you've never seen before! enjoy! |
+| 192.168.1.1  | http://192.168.0.1/debug.htm | Displays lots of router telemetry and allows you to do various debug logging captures.|
+| 192.168.1.1  | http://192.168.0.1/debug.htm#devtools | Open Devtools (F12 or CTRL+SHIFT+C) and remove the "<//--" and "<!--" lines from the page. There is one in the Javascript near the top, and another in the body of the page. This will activate a new button called (Start Qterics Update) as well as functionality of the debug captures. |
+</div>
+
+---
+## INTRODUCTION ##
 Did you know that Netgear routers, WiFi Access Points, Switches, etc all have hidden pages that the developers left in the production images? Was it intentional? Who knows these days. Why hidden? Ask Netgear.
 Is it awesome and filled with cool functionality you never knew existed on your Netgear: Almost certainly, yes. 
 
