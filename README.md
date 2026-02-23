@@ -12,7 +12,7 @@
 </div>
 
 ---
-# :warning: WARNING: DEVICES ARE VULNERABLE UNLESS PATCHED :warning: # 
+# :warning: WARNING: SOME VULNS ARE NOT PATCHED :warning: # 
 ###### (Thanks @Jericho from [attrition.org](https://attrition.org))
 ## [CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.
 
