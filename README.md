@@ -2,8 +2,7 @@
 
 # NETGEAR ROUTERS: Hidden Pages & Functions
 <BR>
-
-  
+ 
 ### Quick Reference for Always Accessible Pages
 | Router IP | URL | Description |
 |--------------|-----|-------------|
@@ -13,6 +12,12 @@
 </div>
 
 ---
+# :warning: WARNING: DEVICES ARE VULNERABLE UNLESS PATCHED :warning: # 
+###### (Thanks @Jericho from [attrition.org](https://attrition.org))
+## [CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.
+
+---
+
 ## INTRODUCTION ##
 Did you know that Netgear routers, WiFi Access Points, Switches, etc all have hidden pages that the developers left in the production images? Was it intentional? Who knows these days. Why hidden? Ask Netgear.
 Is it awesome and filled with cool functionality you never knew existed on your Netgear: Almost certainly, yes. 
@@ -32,10 +37,6 @@ somehow. I haven't had any issues but you might be the lucky one! Who knows..
 ## <ins>**debug.htm**</ins>
 Here's a screenshot of what's inside debug.htm - without even explaining any of the options you can already tell this page is probably the best one with the most badass capabilities.
 ![lol SPAN port/pcap abilities](https://raw.githubusercontent.com/scramblr/NETGEAR_ROUTER_HIDDEN_PAGES/refs/heads/main/netgear.deug.page.jpg?raw=true)
-
-[ Breakdown of all features to be added shortly. ]
-
-[CVE-2022-38452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38452) - A command execution vulnerability exists in the hidden telnet service functionality of Netgear Orbi Router RBR750 4.6.8.5. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.
 
 ## WiFi_HiddenPage.htm
 ***NOTE:** <ins>**Only for Broadcom chipset based devices, but it's pretty badass for saving battery life on your phones and other connected devices. RAX200 / RAX80 / R8500 / R8000 / R7000 / D8500 / D7000**</ins>
